@@ -1,0 +1,35 @@
+/*Framworks */
+
+@import "foundation";
+
+$dark-color : #eee;
+$medium-color : green;
+
+/* my stype */
+body {
+  background: $dark-color;
+}
+
+
+#boxA,
+#boxB,
+#boxC,
+#boxD{
+  padding: 40px;
+}
+
+#boxB{
+  background-color:red;
+}
+
+#boxA{
+  background-color: blue;
+}
+
+#boxD{
+  background-color: yellow;
+}
+
+#boxC{
+  background-color: green;
+}
